@@ -43,3 +43,8 @@ iframe {
   width: 600px;
   height: 350px;
 }
+
+.btn {
+  margin-bottom: 1rem;
+  margin-right: 0.5rem;
+}
