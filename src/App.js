@@ -8,6 +8,7 @@ import About from './pages/About';
 import Contacts from './pages/Contacts';
 import NotFound from './pages/NotFound';
 import Category from './pages/Category';
+import Recipe from './components/Recipe';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <Route path="/about" element={<About />}></Route>
             <Route path="/contacts" element={<Contacts />}></Route>
             <Route path="/category/:name" element={<Category />}></Route>
+            <Route path="/recipe/:id" element={<Recipe />}></Route>
             <Route path="*" element={<NotFound />}></Route>
           </Routes>
         </main>
