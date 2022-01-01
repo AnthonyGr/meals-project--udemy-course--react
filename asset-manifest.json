@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/meals-project--udemy-course--react/static/css/main.d3cbaebb.css",
+    "main.js": "/meals-project--udemy-course--react/static/js/main.c8e542e4.js",
+    "index.html": "/meals-project--udemy-course--react/index.html",
+    "main.d3cbaebb.css.map": "/meals-project--udemy-course--react/static/css/main.d3cbaebb.css.map",
+    "main.c8e542e4.js.map": "/meals-project--udemy-course--react/static/js/main.c8e542e4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d3cbaebb.css",
+    "static/js/main.c8e542e4.js"
+  ]
+}
