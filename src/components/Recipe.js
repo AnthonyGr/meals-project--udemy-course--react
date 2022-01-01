@@ -18,12 +18,12 @@ function Recipe() {
         <Preloader />
       ) : (
         <>
-          <a class="waves-effect waves-light btn" onClick={() => navigate(-1)}>
+          <button class="waves-effect waves-light btn" onClick={() => navigate(-1)}>
             <i class="material-icons right">arrow_back</i>Go Back
-          </a>
-          <a class="waves-effect waves-light btn" onClick={() => navigate('/')}>
+          </button>
+          <button class="waves-effect waves-light btn" onClick={() => navigate('/')}>
             <i class="material-icons right">home</i>Homepage
-          </a>
+          </button>
           <div className="recipe">
             <img src={recipe.strMealThumb} alt={recipe.strMeal} />
             <h1>{recipe.strMeal}</h1>

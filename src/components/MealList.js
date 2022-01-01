@@ -6,9 +6,9 @@ function MealList({ meals }) {
 
   return (
     <>
-      <a class="waves-effect waves-light btn" onClick={() => navigate(-1)}>
+      <button class="waves-effect waves-light btn" onClick={() => navigate(-1)}>
         <i class="material-icons right">arrow_back</i>Go Back
-      </a>
+      </button>
       <div className="list">
         {meals.map((meal) => (
           <Meal key={meal.idMeal} {...meal} />
